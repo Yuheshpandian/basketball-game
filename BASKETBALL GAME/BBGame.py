@@ -1,7 +1,9 @@
+# importing required moduless
 import pygame
 from sys import exit
 import time
 
+# initialising python
 pygame.init()
 
 
@@ -53,6 +55,7 @@ def game_over(score,miss,shots):
 		screen2.blit(font.render("SHOTS:"+str(shots),True,"black"),(360,450))
 		pygame.display.update()
 
+# main loop
 if __name__ == "__main__":
 	while True:
 		for event in pygame.event.get():
