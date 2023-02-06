@@ -1,4 +1,4 @@
-# basketball-game
+# ***Basketball-Game***
 have some fun by playing this game
 
 built completly from `python` using `pygame`
